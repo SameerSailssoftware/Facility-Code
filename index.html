@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Facility file</title>
+  <link rel="stylesheet" href="Bootstrap/bootstrap.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css" />
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <div class="m-4">
+    <nav class="navbar navbar-expand-lg navbar-light nav1">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"> Facility file</a>
+
+
+          <button class="btn" id="btn4"><span> <img src="icon/up.png"> A</span> ADD FACILITY</button>
+
+      </div>
+    </nav>
+    <div class="area">
+
+      <section class="container">
+        <div>
+          <h5 class="py-2">Facility Code</h5>  
+          <form class="row">
+            <div class="col-3">
+              <div class="input-group date" id="datepicker">
+                <input type="text" class="form-control" id="date" placeholder="Search Facility Code" />
+              </div>
+            </div>
+          </form>
+        </div>
+        
+        <div>
+          <h5 class="py-2">Address1</h5>
+          <form class="row">
+            <div class="col-3">
+              <div class="input-group date" id="datepicker">
+                <input type="text" class="form-control" id="date" placeholder="Search Address1" />
+              </div>
+            </div>
+          </form>
+        </div>
+
+        
+
+        <div id="btnside">
+          <button class="btn" id="btn2"><span>- S</span> SEARCH</button>
+            <button class="btn" id="btn3"><span>- C</span> CLEAR</button>
+        </div>
+
+
+      </section>
+
+        <!-- <div class="btn1">
+          <button class="btn" id="btn2"><i class="fa fa-search" style="color: white;"></i> Search</button>
+          <button class="btn" id="btn3"><i class="fa fa-ban" style="color: white;"></i> Clear</button>
+        </div> -->
+
+    </div>
+
+  </div>
+
+
+  <div class="m-4">
+
+
+    <table id="tbstud">
+      <tr>
+        <th class="column_heading" style="border-top-left-radius: 5px;">Actions </th>
+        <th class="column_heading">Facility Code</th>
+        <th class="column_heading">Address 1</th>
+        <th class="column_heading">Address 2</th>
+        <th class="column_heading">City</th>
+        <th class="column_heading">State</th>
+        <th class="column_heading">Zip</th>
+        <th class="column_heading">Phone# 1</th>
+        <th class="column_heading">Phone# 2</th>
+        <th class="column_heading">PO Text</th>
+        <th class="column_heading">PO Form</th>
+        <th class="column_heading" style="border-top-right-radius: 5px;">Comments &nbsp; &nbsp; <button type="button"
+            class="btn"> <img src="icon/settings.png" height="15" width="15"></button></th>
+      </tr>
+      <tr class="customer_row">
+        <td class="left">
+          <input type="image" class="iicon" src="icon/Vector2.png"/> 
+          <input type="image" class="iicon" src="icon/Vector3.png"/>
+        </td>       
+        <td>CYC </td>
+        <td>6900 JERICHO TPKE</td>
+        <td></td>
+        <td>SYOSSET</td>
+        <td>NY</td>
+        <td>38106</td>
+        <td >(2)-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+      </tr>
+      <tr class="customer_row">
+        <td class="left">
+          <input type="image" class="iicon" src="icon/Vector2.png"/> 
+          <input type="image" class="iicon" src="icon/Vector3.png"/>
+        </td>      
+         <td> CYC</td>
+        <td>555 N ADDY RD</td>
+        <td></td>
+        <td>BROOKLYN</td>
+        <td>TN</td>
+        <td>59102</td>
+        <td>(225)655-6323
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+      </tr>
+
+      <tr class="customer_row">
+        <td class="left">
+          <input type="image" class="iicon" src="icon/Vector2.png"/> 
+          <input type="image" class="iicon" src="icon/Vector3.png"/>
+        </td>      
+         <td>NHOME </td>
+        <td>2828 MASONIC DRIVE</td>
+        <td></td>
+        <td>SCHENECTADY</td>
+        <td>MT</td>
+        <td>12345</td>
+        <td> (098)000-0
+        </td>
+        <td>(789)988-99</td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+      </tr>
+
+      <tr class="customer_row">
+        <td class="left">
+          <input type="image" class="iicon" src="icon/Vector2.png"/> 
+          <input type="image" class="iicon" src="icon/Vector3.png"/>
+        </td>      
+         <td> NHOME</td>
+        <td>2828 MASONIC DRIVE</td>
+        <td></td>
+        <td>MEMPHIS</td>
+        <td>NY</td>
+        <td>76039</td>
+        <td> (098)000-0
+        </td>
+        <td>(789)988-99</td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+      </tr>
+
+      <tr class="customer_row">
+        <td class="left">
+          <input type="image" class="iicon" src="icon/Vector2.png"/> 
+          <input type="image" class="iicon" src="icon/Vector3.png"/>
+        </td>    
+           <td>TESTS </td>
+        <td>123</td>
+        <td></td>
+        <td>BILLINGS</td>
+        <td>TX</td>
+        <td>12345</td>
+        <td>(516)408-5555
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+      </tr>
+
+      
+      <tr class="customer_row">
+        <td class="left">
+          <input type="image" class="iicon" src="icon/Vector2.png"/> 
+          <input type="image" class="iicon" src="icon/Vector3.png"/>
+        </td>       
+        <td> 235</td>
+        <td></td>
+        <td></td>
+        <td>SCHENECTADY</td>
+        <td>NY</td>
+        <td>12345</td>
+        <td>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+      </tr>
+
+      <tr class="customer_row">
+        <td class="left">
+          <input type="image" class="iicon" src="icon/Vector2.png"/> 
+          <input type="image" class="iicon" src="icon/Vector3.png"/>
+        </td>     
+          <td>TT </td>
+        <td></td>
+        <td></td>
+        <td>EULESS</td>
+        <td>OH</td>
+        <td>44444</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+      <tr class="customer_row">
+        <td class="left">
+          <input type="image" class="iicon" src="icon/Vector2.png"/> 
+          <input type="image" class="iicon" src="icon/Vector3.png"/>
+        </td>      
+         <td>TESTED </td>
+        <td>1287 HORIZON CIRCLE</td>
+        <td></td>
+        <td>SCHENECTADY</td>
+        <td>NY</td>
+        <td>12345</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+      </tr>
+
+
+      <tr class="customer_row">
+        <td class="left">
+          <input type="image" class="iicon" src="icon/Vector2.png"/> 
+          <input type="image" class="iicon" src="icon/Vector3.png"/>
+        </td>      
+         <td>543 </td>
+        <td></td>
+        <td></td>
+        <td>NEWTON FALLS</td>
+        <td>NY</td>
+        <td>12345</td>
+        <td>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+      </tr>
+
+      
+    </table>
+
+  </div>
+
+
+  <div class="m-4">
+    <nav class="navbar navbar-expand-lg navbar-light spc">
+      <div class="container-fluid">
+        
+    <div class="pagination p1">
+      <ul>
+        <a href="#" class="arw"><li><</li></a>
+        <a class="is-active" href="#"><li>1</li></a>
+        <a href="#"><li>2</li></a>
+        <a href="#"><li>3</li></a>
+        <a href="#"><li>4</li></a>
+        <a href="#"><li>5</li></a>
+        <a href="#" class="arw"><li>></li></a>
+      </ul>
+
+      <div class="pagination p1">
+        <b class="trs">Total Records: <span style="color:black"> 09</span></b>
+        </div>
+    </div>
+
+    
+
+
+    <div class="footerbtn">
+
+    <div class="dropdown">
+      <button class="btn5 btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        15
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <button class="dropdown-item" type="button">Action</button>
+        <button class="dropdown-item" type="button">Another action</button>
+        <button class="dropdown-item" type="button">Something else here</button>
+      </div>
+    </div>
+
+    
+        <button class="btn" id="btn3"><span>- J</span> EXPORT</button>
+
+  </div>
+
+    
+ 
+      </div>
+    </nav>
+  </div>
+
+
+</body>
+
+</html>
